@@ -1,0 +1,305 @@
+html,
+body {
+  background-color: black;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+}
+
+/* REM values for responsiveness */
+@media only screen and (min-width: 768px) {
+  html {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  html {
+    font-size: 8px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  html {
+    font-size: 7px;
+  }
+}
+
+h1 {
+  font-size: 6.4rem;
+  font-weight: 700;
+  color: rgb(58, 58, 58);
+}
+
+h2 {
+  font-size: 3.6rem;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 2.6rem;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: #ffcd00;
+}
+
+h5 {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+p {
+  font-size: 1.6rem;
+  line-height: 2rem;
+}
+
+a {
+  color: #ffcd00;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffcd00;
+  text-decoration: none;
+  opacity: 0.6;
+}
+
+.text-yellow {
+  color: #ffcd00;
+}
+
+.week-button {
+  text-align: center;
+  transition: 0.5s ease all;
+}
+
+.week-button:hover {
+  transform: scale(0.9);
+  cursor: pointer;
+}
+
+.event-tile {
+  width: 100%;
+  min-height: 30rem;
+  background-color: white;
+  background-size: cover;
+  background-position: center;
+}
+
+.event-info {
+  text-align: end;
+}
+
+/*AUTO CHANGE COLORS OF EVENTS*/
+
+#event-display > div.row.sep-event-tile:nth-last-of-type(odd) > div.col.event-tile > div.row {
+  background: linear-gradient(270deg, #006A96 30.08%, rgba(0, 106, 150, 0.3) 97.88%);
+} 
+
+#event-display > div.row.sep-event-tile:nth-last-of-type(odd) > div.col.event-tile > div.row > div.event-date {
+  color : #ffcd00;
+} 
+
+#event-display > div.row.sep-event-tile:nth-last-of-type(odd) > div.col.event-tile > div.row > div.col.event-info > div > h3 {
+  color: #ffcd00;
+}
+
+#event-display > div.row.sep-event-tile:nth-last-of-type(odd) > div.col.event-tile > div.row > div.col.event-info > div > p {
+  color: #ffffff;
+}
+
+#event-display > div.row.sep-event-tile:nth-last-of-type(odd) > div.col.event-tile > div.row > div.col.event-info > div > p > span {
+  color: #ffcd00;
+}
+
+#event-display > div.row.sep-event-tile:nth-last-of-type(even) > div.col.event-tile > div.row {
+  background: linear-gradient(270deg, #FFCD00 0%, rgba(255, 205, 0, 0.3) 50%);
+}
+
+#event-display > div.row.sep-event-tile:nth-last-of-type(even) > div.col.event-tile > div.row > div.event-date {
+  color : #006A96;
+} 
+
+#event-display > div.row.sep-event-tile:nth-last-of-type(even) > div.col.event-tile > div.row > div.col.event-info > div > h3 {
+  color: #006A96;
+}
+
+#event-display > div.row.sep-event-tile:nth-last-of-type(even) > div.col.event-tile > div.row > div.col.event-info > div > p {
+  color: #000000;
+}
+
+#event-display > div.row.sep-event-tile:nth-last-of-type(even) > div.col.event-tile > div.row > div.col.event-info > div > p > span {
+  color: #006A96;
+}
+
+#event-display > div.row.sep-event-tile:nth-last-of-type(even) > div.col.event-tile > div.row > div.col.event-info > div > p > a {
+  color: #006A96;
+}
+
+/*AUTO CHANGE COLORS OF EVENTS*/
+
+/* #carouselIndicators {
+  margin-top: 4rem;
+} */
+
+.splash-image {
+  width: 100%;
+  margin-top: 4rem;
+  height: auto;
+}
+
+.splash-buttons {
+  display: flex;
+}
+
+.splash-buttons > a {
+  width: 50%;
+  text-align: center;
+}
+
+.sep-event-tile {
+  margin-top: 3rem;
+}
+
+.copyright-info {
+  margin: 8rem 0 1rem 0;
+  text-align: center;
+}
+
+.events {
+  margin-top: 6rem;
+}
+
+.ucsd-logo {
+  width: 100%;
+  height: auto;
+}
+
+.save-the-date {
+  text-align: left;
+  margin-top: 4rem;
+}
+
+.last-year {
+  margin-top: 14rem;
+  text-align: center;
+}
+
+.footers > div {
+  margin-top: 2rem;
+}
+.visibility {
+  display: none;
+}
+
+.small-week {
+  margin-top: 4rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footers p {
+  font-size: 1.4rem;
+}
+
+.sponsor-container {
+  width: 180px;
+}
+
+.sponsor-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.sponsor-col {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+@media screen and (min-width: 767px) {
+  .large-screen-events {
+    display: block;
+  }
+
+  .small-screen-events {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .large-screen-events {
+    display: none;
+  }
+
+  .small-screen-events {
+    display: block;
+  }
+
+  .splash-buttons {
+    display: block;
+  }
+
+  .container {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+
+  /*AUTO CHANGE COLORS OF EVENTS*/
+
+  .col-12 > div.row.sep-event-tile:nth-last-of-type(odd) > div.col.event-tile > div.row {
+    background: linear-gradient(270deg, #006A96 30.08%, rgba(0, 106, 150, 0.3) 97.88%);
+  } 
+  
+  .col-12 > div.row.sep-event-tile:nth-last-of-type(odd) > div.col.event-tile > div.row > div.event-date {
+    color : #ffcd00;
+  } 
+  
+  .col-12 > div.row.sep-event-tile:nth-last-of-type(odd) > div.col.event-tile > div.row > div.col.event-info > div > h3 {
+    color: #ffcd00;
+  }
+  
+  .col-12 > div.row.sep-event-tile:nth-last-of-type(odd) > div.col.event-tile > div.row > div.col.event-info > div > p {
+    color: #ffffff;
+  }
+  
+  .col-12 > div.row.sep-event-tile:nth-last-of-type(odd) > div.col.event-tile > div.row > div.col.event-info > div > p > span {
+    color: #ffcd00;
+  }
+  
+  .col-12 > div.row.sep-event-tile:nth-last-of-type(even) > div.col.event-tile > div.row {
+    background: linear-gradient(270deg, #FFCD00 0%, rgba(255, 205, 0, 0.3) 50%);
+  }
+  
+  .col-12 > div.row.sep-event-tile:nth-last-of-type(even) > div.col.event-tile > div.row > div.event-date {
+    color : #006A96;
+  } 
+  
+  .col-12 > div.row.sep-event-tile:nth-last-of-type(even) > div.col.event-tile > div.row > div.col.event-info > div > h3 {
+    color: #006A96;
+  }
+  
+  .col-12 > div.row.sep-event-tile:nth-last-of-type(even) > div.col.event-tile > div.row > div.col.event-info > div > p {
+    color: #000000;
+  }
+  
+  .col-12 > div.row.sep-event-tile:nth-last-of-type(even) > div.col.event-tile > div.row > div.col.event-info > div > p > span {
+    color: #006A96;
+  }
+  
+  .col-12 > div.row.sep-event-tile:nth-last-of-type(even) > div.col.event-tile > div.row > div.col.event-info > div > p > a {
+    color: #006A96;
+  }
+  
+  /*AUTO CHANGE COLORS OF EVENTS*/
+}
