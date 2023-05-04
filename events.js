@@ -3,7 +3,7 @@ const Events = {
     {
       date: "FEB 1",
       title: "Black Staff Leadership Roundtable",
-      time: "11:05AM to 11:50AM",
+      time: "11:05 AM to 11:50 AM",
       sponsors: "Council of UC Staff Assemblies",
       description:
         "Please join the Council of UC Staff Assemblies (CUCSA) for a roundtable discussion featuring Black staff who led in service of UC. The panel will include: Rejeana Mathis, Past CUCSA Chair David Miller, Staff Advisor to the Regents Emeritus and Past CUCSA Chair LaWana Richmond, Staff Advisor to the Regents Emerita Jason Valdry, Staff Advisor to the Regents Emeritus. The conversation will be facilitated by Dennis McIver, Chair of the Council of UC Staff Assemblies.",
@@ -11,11 +11,8 @@ const Events = {
       link:
         "https://bit.ly/cucsabhm22",
       ticket: "Click to Register | Free Event",
-      base_color: "#FFFFFF",
-      text_color: "#ffcd00",
       image: "./images/BHM_RoundTable.png",
-      background:
-        "linear-gradient(270deg, #006A96 30.08%, rgba(0, 106, 150, 0.3) 97.88%);"
+
     },
     {
       date: "FEB 1",
@@ -28,11 +25,8 @@ const Events = {
       link:
         "https://instagram.com/ucsdbrc",
       ticket: "Free Event | Details on Instagram",
-      base_color: "#000000",
-      text_color: "#006A96",
       image: "./images/BHM_BRCKickOff.png",
-      background:
-        "linear-gradient(270deg, #FFCD00 0%, rgba(255, 205, 0, 0.3) 50%);"
+
     },
     {
       date: "FEB 2",
@@ -45,15 +39,41 @@ const Events = {
       link:
         "https://ucsd.evenue.net/cgi-bin/ncommerce3/SEGetEventInfo?ticketCode=GS%3AARTS%3AAP23%3AAP0202%3A&linkID=ucsd-arts&shopperContext=&pc=&caller=&appCode=&groupCode=&cgc=",
       ticket: "$28-35; Students: $9",
-      base_color: "#FFFFFF",
-      text_color: "#ffcd00",
       image: "./images/BHM_CedricWatson.png",
-      background:
-        "linear-gradient(270deg, #006A96 30.08%, rgba(0, 106, 150, 0.3) 97.88%);"
+    
     },
+    {
+      date: "FEB 2",
+      title: "Cedric Watson & Bijou Creole",
+      time: "8:00 PM",
+      sponsors: "ArtPower",
+      description:
+        "Spearheading the emerging generation of Cajun and Creole musicians, Cedric Watson is a fiddler, vocalist, accordionist and songwriter of enormous talent and potential. With an apparently bottomless repertoire of songs at his fingertips, Watson plays everything from forgotten Creole melodies to more modern Cajun and Zydeco songs, even occasionally throwing in a bluegrass fiddle tune or an old string band number.",
+      location: "The Loft",
+      link:
+        "https://ucsd.evenue.net/cgi-bin/ncommerce3/SEGetEventInfo?ticketCode=GS%3AARTS%3AAP23%3AAP0202%3A&linkID=ucsd-arts&shopperContext=&pc=&caller=&appCode=&groupCode=&cgc=",
+      ticket: "$28-35; Students: $9",
+      image: "./images/BHM_CedricWatson.png",
+    
+    }
 
   ],
   "week-5": [
+    {
+      date: "FEB 6",
+      title: "Resilience and Coping in Difficult Times: Resistance, Resilience, and Flourishing",
+      time: "5:30 PM to 6:30 PM",
+      sponsors: "Center for Mindfulness UCSD",
+      description: "Set in Black History Month to acknowledge the extreme suffering, yet relevant for everyone. Each one of us regardless of race has encountered tribulation of some kind in this life. This series will address rising in spite of what is placed before us. A topic that everyone can relate to!</br></br>Join us Every Monday evening in February 5:30 to 6:30pm Pacific.</br></br>For more info, view the <a href='./images/BHM_Resilience.jpg'; target='_blank'> event flyer</a>.",
+      location: "Zoom",
+      link: "https://ucsd.zoom.us/meeting/register/tJMof-yoqT4oGNc4tdQ0XrNAkUjForhDu7eN",
+      ticket: "Click to Register | Free Event",
+      base_color: "#FFFFFF",
+      text_color: "#ffcd00",
+      image: "./images/BHM_Resistence.png",
+      background:
+      "linear-gradient(270deg, #006A96 30.08%, rgba(0, 106, 150, 0.3) 97.88%);"
+    },
     {
       date: "FEB 8",
       title: "Black Italy in Film - A Screening and Conversation with Filmmakers Antonio Dikele Distefano & Fred Kuwornu",
@@ -114,10 +134,10 @@ const Events = {
       time: "2:00 PM",
       sponsors: "UCOP-BSFO",
       description:
-        "To kick off Black History Month, BSFO will introduce and honor the Five UC students who were selected to receive 2023 UCOP-BSFO Scholarships.",
+        "To kick off Black History Month, BSFO will introduce and honor the Five UC students who were selected to receive 2023 UCOP-BSFO Scholarships.</br></br>For more info, view the <a href='./pdf/BHM_Scholarship.pdf'; target='_blank'> event flyer</a>.",
       location: "Zoom",
       link:
-        "https://ucsd.evenue.net/cgi-bin/ncommerce3/SEGetEventInfo?ticketCode=GS%3AARTS%3AAP23%3AAP0209%3A&linkID=ucsd-arts&shopperContext=&pc=&caller=&appCode=&groupCode=&cgc=",
+        "https://ucop.zoom.us/j/92103530440?pwd=R25ZMzJ6bjVsaDBPZnpPR1Y5YWsyUT09",
       ticket: "Click to Register | Free Event",
       base_color: "#000000",
       text_color: "#006A96",
@@ -128,7 +148,6 @@ const Events = {
 
   ],
   "week-6": [
-    // TODO: is there a better name to use for women's center? UC San Diego ...? is location descriptive enough?
     {
       date: "FEB 13",
       title: "'CALIFORNIAN BLACK TRAILBLAZERS' - Dr. Shirley Weber, CA Secretary of State",
@@ -147,9 +166,24 @@ const Events = {
         "linear-gradient(270deg, #FFCD00 0%, rgba(255, 205, 0, 0.3) 50%);"
     },
     {
+      date: "FEB 13",
+      title: "Resilience and Coping in Difficult Times: These Stories Saved My Life",
+      time: "5:30 PM to 6:30 PM",
+      sponsors: "Center for Mindfulness UCSD",
+      description: "Set in Black History Month to acknowledge the extreme suffering, yet relevant for everyone. Each one of us regardless of race has encountered tribulation of some kind in this life. This series will address rising in spite of what is placed before us. A topic that everyone can relate to!</br></br>Join us Every Monday evening in February 5:30 to 6:30pm Pacific.</br></br>For more info, view the <a href='./images/BHM_Resilience.jpg'; target='_blank'> event flyer</a>.",
+      location: "Zoom",
+      link: "https://ucsd.zoom.us/meeting/register/tJMof-yoqT4oGNc4tdQ0XrNAkUjForhDu7eN",
+      ticket: "Click to Register | Free Event",
+      base_color: "#FFFFFF",
+      text_color: "#ffcd00",
+      image: "./images/BHM_TheseStories.png",
+      background:
+      "linear-gradient(270deg, #006A96 30.08%, rgba(0, 106, 150, 0.3) 97.88%);"
+    },
+    {
       date: "FEB 14",
       title: "'CALIFORNIAN BLACK TRAILBLAZERS' - MR. SOLWAZI - FRIENDS OF ALLENSWORTH",
-      time: "12:00PM",
+      time: "12:00 PM",
       sponsors: "UCOP-BSFO",
       description: "Join us as we walk through a virtual presentation on the establishment and history of the first black town founded and funded by decendents of black american slaves.",
       location: "Zoom",
@@ -164,8 +198,8 @@ const Events = {
     },
     {
       date: "FEB 14",
-      title: "Tuesday Tunes: Beyonc&eacute, Little Simz, Lizzo, Tierra Whack, Megan thee Stallion",
-      time: "2:30PM to 4:00PM",
+      title: "Tuesday Tunes: Black Artist Medley",
+      time: "2:30 PM to 4:30 PM",
       sponsors: "Women's Center",
       description: "We're celebrating Black History Month with a medley of songs and music videos by Black artists! Regardless of your level of familiarity with their music, we welcome you to come to the Women's Center and explore their lyrics at this casual listening party. We'll examine their work through an intersectional feminist lens, and have a discussion about the lyrics and music video visuals. We would love to hear your thoughts and interpretations!",
       location: "WC Living Room",
@@ -199,7 +233,7 @@ const Events = {
     {
       date: "FEB 15",
       title: "'CALIFORNIAN BLACK TRAILBLAZERS' - 'Summer of Soul'",
-      time: "3:00PM to 5:00PM",
+      time: "3:00 PM to 5:00 PM",
       sponsors: "UCOP-BSFO",
       description: "Watch featured film, 'Summer of Soul'",
       location: "Zoom",
@@ -215,12 +249,12 @@ const Events = {
     {
       date: "FEB 16",
       title: "15th Annual Presidents' Day Forum at the Crossroads: \"The Intersection of Politics & Black Activism\"",
-      time: "11:30AM to 1:00PM",
+      time: "11:30 AM to 1:00 PM",
       sponsors: "Black Staff Association",
       description: "The world and the workplace are changing on a daily basis. We believe that higher education must keep pace, which is why we have the annual event (space).  Higher education must reinvent itself through robust conversations that deepens our understanding of the political landscape and its impact on the Black community. The Presidents' Day Forum is a signature event held annually during Black History Month (February) as an opportunity to engage in critical dialogue with insightful panelists on the U.S. Presidency and current political climate.  The session includes an open Q&A segment.",
       location: "Zoom",
       link:
-        "https://bsa.ucsd.edu/",
+        "https://ucsd.zoom.us/meeting/register/tJApcOiprDgpHtT2YNypT3DqceIQfpbwhaFN",
       ticket: "Click to Register | Free Event",
       base_color: "#FFFFFF",
       text_color: "#ffcd00",
@@ -231,7 +265,7 @@ const Events = {
     {
       date: "FEB 16",
       title: "'CALIFORNIAN BLACK TRAILBLAZERS' - Blacks in Tech",
-      time: "1:00PM",
+      time: "1:00 PM",
       sponsors: "UCOP-BSFO",
       description: "Join our panelists; Marsha Evans, UC Merced and Marie Sylla, AMAZON EDI, as they discuss Technology and African-American representation pertaining to historic contributions made throughout California.",
       location: "Zoom",
@@ -247,7 +281,7 @@ const Events = {
     {
       date: "FEB 17",
       title: "'CALIFORNIAN BLACK TRAILBLAZERS' - Hip Hop",
-      time: "1:00PM",
+      time: "1:00 PM",
       sponsors: "UCOP-BSFO",
       description: "In honor of the 50th Anniversary of Hip Hop, join our panelist discussion on the musical influence blacks have contributed toward Californian culture. Featured panelist: Prof. Samy-Alim - UCLA, Pen Hershaw, Lionel Bea -[Too $hort's former manager]",
       location: "Zoom",
@@ -262,11 +296,25 @@ const Events = {
     },
   ],
   "week-7": [
-    // TODO: Time in description doesn't match time given
+    {
+      date: "FEB 20",
+      title: "Resilience and Coping in Difficult Times: Compassion in Black Liberation Theology",
+      time: "5:30 PM to 6:30 PM",
+      sponsors: "Center for Mindfulness UCSD",
+      description: "Set in Black History Month to acknowledge the extreme suffering, yet relevant for everyone. Each one of us regardless of race has encountered tribulation of some kind in this life. This series will address rising in spite of what is placed before us. A topic that everyone can relate to!</br></br>Join us Every Monday evening in February 5:30 to 6:30pm Pacific.</br></br>For more info, view the <a href='./images/BHM_Resilience.jpg'; target='_blank'> event flyer</a>.",
+      location: "Zoom",
+      link: "https://ucsd.zoom.us/meeting/register/tJMof-yoqT4oGNc4tdQ0XrNAkUjForhDu7eN",
+      ticket: "Click to Register | Free Event",
+      base_color: "#FFFFFF",
+      text_color: "#ffcd00",
+      image: "./images/BHM_Compassion.png",
+      background:
+      "linear-gradient(270deg, #006A96 30.08%, rgba(0, 106, 150, 0.3) 97.88%);"
+    },
     {
       date: "FEB 21",
       title: "Feminist Film Club: The Woman King",
-      time: "5:30PM to 8:30PM",
+      time: "5:30 PM to 8:30 PM",
       sponsors: "Women's Center",
       description: "Join us at the Women's Center for our first Feminist Film Club viewing of winter quarter where we will watch The Woman King in honor of Black History Month! We'll be watching the film Tuesday, February 21th from 5:30-7:30pm at the Women's Center Community Lounge, followed by an in-person discussion. The discussion will take place until 8:30pm and will focus on how the representation of Black women differs from historical stereotypes and previous media depictions, as well as how the narrative provides a non-Eurocentric perspective on colonialism. Pizza and snacks will be provided, and all genders are welcome! Feel free to bring blankets and pillows :).",
       location: "WC Living Room",
@@ -315,17 +363,33 @@ const Events = {
         "linear-gradient(270deg, #006A96 30.08%, rgba(0, 106, 150, 0.3) 97.88%);"
     },
 
-    // TODO: add picture
+    {
+      date: "FEB 23",
+      title: "PANEL DISCUSSION: Resisting the Prison Industrial Complex",
+      time: "4:30 PM to 6:30 PM",
+      sponsors: "Office of the Vice Chancellor for Equity, Diversity and Inclusion, the Black Studies Project, the Cross Cultural Center, the Black Student Union, the Black Resource Center, Department of Urban Studies & Planning, Critical Gender Studies, African Black Diaspora LLC -Sixth College",
+      description: "The Black Diaspora and African American Studies Program is proud to host former political prisoner, Sekou Abdullah Odinga, and Curtis Howard, former prisoner and lead organizer of All of Us or None (San Diego)",
+      location: "Price Center East Ballroom",
+      link:
+        "https://www.eventbrite.com/e/538227461827",
+      ticket: "Click to Register | Free Event",
+      base_color: "#000000",
+      text_color: "#006A96",
+      image: "./images/BHM_SekouCurtis.png",
+      background:
+        "linear-gradient(270deg, #FFCD00 0%, rgba(255, 205, 0, 0.3) 50%);"
+    },
+
     {
       date: "FEB 25",
-      title: "21st Annual Black History Month Scholarship Brunch",
+      title: "21st Annual Black History Month </br> Scholarship Brunch",
       time: "10:00 AM to 1:00 PM",
       sponsors: "Black History Month Planning Committee",
-      description: "Please join us for the 21st Annual Black History Month Scholarship Brunch. Our featured keynote speaker <a href='https://en.wikipedia.org/wiki/Mary_Frances_Berry'; style='color: #006A96'>Dr. Mary Frances Berry</a>, professor, writer, lawyer, whose public service included work in three presidential administrations. Dr. Berry, a longtime activist for civil rights and freedom, will share her expertise on where we go from here, as we watch many of those hard-won freedoms fall away. In addition, please consider contributing to the <a href='https://giveto.ucsd.edu/giving/home/gift-referral/d6f20d56-33ac-44ff-aba1-077b96a2b87f/118ec7be-f10b-489a-8051-becc2cd5d4ec'; style='color: #006A96'>UJIMA Network Black History Month Scholarship fund</a>. Live entertainment provided by DJ Kandu Moore, and recognition of student scholars at UC San Diego. ASL Interpreters will be available at the event. For information regarding <b>table sponsorship</b> for <b>RESERVED</b> seating or purchase individual tickets, please contact: <a href='mailto: Blackhistorymonth@ucsd.edu'; style='color: #006A96'>Blackhistorymonth@ucsd.edu</a>.",
+      description: "Please join us for the 21st Annual Black History Month Scholarship Brunch. Our featured keynote speaker <a href='https://en.wikipedia.org/wiki/Mary_Frances_Berry'>Dr. Mary Frances Berry</a>, professor, writer, lawyer, whose public service included work in three presidential administrations. Dr. Berry, a longtime activist for civil rights and freedom, will share her expertise on where we go from here, as we watch many of those hard-won freedoms fall away. In addition, please consider contributing to the <a href='https://giveto.ucsd.edu/giving/home/gift-referral/d6f20d56-33ac-44ff-aba1-077b96a2b87f/118ec7be-f10b-489a-8051-becc2cd5d4ec'>UJIMA Network Black History Month Scholarship fund</a>. Live entertainment provided by DJ Kandu Moore, and recognition of student scholars at UC San Diego. ASL Interpreters will be available at the event. For more information, please contact: <a href='mailto: Blackhistorymonth@ucsd.edu'>Blackhistorymonth@ucsd.edu</a>.",
       location: "Price Center WEST Ballroom",
       link:
         "mailto:Blackhistorymonth@ucsd.edu",
-      ticket: "Email Blackhistorymonth@ucsd.edu to Purchase",
+      ticket: "Email Blackhistorymonth@ucsd.edu for questions. Table sponsorship: SOLD OUT",
       base_color: "#000000",
       text_color: "#006A96",
       image: "./images/BHM_ScholarshipCelebration.png",
@@ -334,6 +398,21 @@ const Events = {
     },
   ],
   "week-8": [
+    {
+      date: "FEB 27",
+      title: "Resilience and Coping in Difficult Times: Black History in Our Present and Future",
+      time: "5:30 PM to 6:30 PM",
+      sponsors: "Center for Mindfulness UCSD",
+      description: "Set in Black History Month to acknowledge the extreme suffering, yet relevant for everyone. Each one of us regardless of race has encountered tribulation of some kind in this life. This series will address rising in spite of what is placed before us. A topic that everyone can relate to!</br></br>Join us Every Monday evening in February 5:30 to 6:30pm Pacific.</br></br>For more info, view the <a href='./images/BHM_Resilience.jpg'; target='_blank'> event flyer</a>.",
+      location: "Zoom",
+      link: "https://ucsd.zoom.us/meeting/register/tJMof-yoqT4oGNc4tdQ0XrNAkUjForhDu7eN",
+      ticket: "Click to Register | Free Event",
+      base_color: "#FFFFFF",
+      text_color: "#ffcd00",
+      image: "./images/BHM_BlackHistory.png",
+      background:
+      "linear-gradient(270deg, #006A96 30.08%, rgba(0, 106, 150, 0.3) 97.88%);"
+    },
     {
       date: "FEB 28",
       title: "Brandon Coleman",
@@ -373,7 +452,7 @@ const Events = {
     // {
     //   date: "FEB 28",
     //   title: "Healing Our Communities: Triple A Strategies to Transformation",
-    //   time: "5:30PM to 6:30PM",
+    //   time: "5:30 PM to 6:30 PM",
     //   sponsors: "UC San Diego Centers for Integrative Health Center for Mindfulness",
     //   description: "Hosted by Natalie J. Clayton, MS, ACC. Acknowledging the Full Catastrophe of our lives & finding peace, compassion & forgiveness. Honoring Black History Month. Everyone Invited! For more info, view the <a href='./pdf/BHM2022Flyer_HealingOurCommunities.pdf'; style='color: #ffcd00'> event flyer</a>.",
     //   location: "Zoom",
@@ -405,23 +484,39 @@ const Events = {
     // },
   ],
   ongoing: [
-    // TODO: is exhbit itallicized?, Link to ticket links to nothing about the event
     {
-      date: "FEB 6 - MAR 25",
-      title: " Blacktronika: Afrofuturism in Electronic Music | Exhibit",
-      time: "All day",
-      sponsors: "UC San Diego Library",
-      description:
-        "This exhibit celebrates and shines a light on the UC San Diego course Blacktronika: Afrofuturism in Electronic Music, which was created by music professor and music industry practitioner, King James Britt. Throughout Winter Quarter 2023, view an assortment of Professor Britt's exciting course materials, a selection of vintage and current electronica instruments-of-interest, and ephemera associated with Britt's career and his current research.",
-      location: "The Nest at Geisel Library, 2nd Floor",
-      link: "https://library.ucsd.edu/news-events/events/locations/the-nest-at-geisel/",
+      date: "FEB 6 - FEB 27",
+      title: "Resilience and Coping in Difficult Times",
+      time: "Mondays from 5:30 PM to 6:30 PM",
+      sponsors: "Center for Mindfulness UCSD",
+      description: "Set in Black History Month to acknowledge the extreme suffering, yet relevant for everyone. Each one of us regardless of race has encountered tribulation of some kind in this life. This series will address rising in spite of what is placed before us. A topic that everyone can relate to!</br></br>Join us Every Monday evening in February 5:30 to 6:30pm Pacific.</br></br>For more info, view the <a href='./images/BHM_Resilience.jpg'; target='_blank'> event flyer</a>.",
+      location: "Zoom",
+      link: "https://ucsd.zoom.us/meeting/register/tJMof-yoqT4oGNc4tdQ0XrNAkUjForhDu7eN",
       ticket: "Click to Register | Free Event",
       base_color: "#FFFFFF",
       text_color: "#ffcd00",
       image: "./images/BHM_Template.jpg",
       background:
-        "linear-gradient(270deg, #006A96 30.08%, rgba(0, 106, 150, 0.3) 97.88%);"
-    }
+      "linear-gradient(270deg, #006A96 30.08%, rgba(0, 106, 150, 0.3) 97.88%);"
+    },
+
+    {
+      date: "FEB 6 - MAR 25",
+      title: "Blacktronika: Afrofuturism in Electronic Music | Exhibit",
+      time: "All day",
+      sponsors: "UC San Diego Library",
+      description: "This exhibit celebrates and shines a light on the UC San Diego course Blacktronika: Afrofuturism in Electronic Music, which was created by music professor and music industry practitioner, King James Britt. Throughout Winter Quarter 2023, view an assortment of Professor Britt's exciting course materials, a selection of vintage and current electronica instruments-of-interest, and ephemera associated with Britt's career and his current research.",
+      location: "The Nest at Geisel Library, 2nd Floor",
+      link: "https://library.ucsd.edu/news-events/events/locations/the-nest-at-geisel/",
+      ticket: "Click to Register | Free Event",
+      base_color: "#000000",
+      text_color: "#006A96",
+      image: "./images/BHM_Template.jpg",
+      background:
+        "linear-gradient(270deg, #FFCD00 0%, rgba(255, 205, 0, 0.3) 50%);"
+    },
+
+
   ]
 };
 

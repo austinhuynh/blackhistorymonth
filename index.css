@@ -120,6 +120,10 @@ a:hover {
   color: #ffcd00;
 }
 
+#event-display > div.row.sep-event-tile:nth-last-of-type(odd) > div.col.event-tile > div.row > div.col.event-info > div > p > a {
+  color: #ffcd00;
+}
+
 #event-display > div.row.sep-event-tile:nth-last-of-type(even) > div.col.event-tile > div.row {
   background: linear-gradient(270deg, #FFCD00 0%, rgba(255, 205, 0, 0.3) 50%);
 }
@@ -274,6 +278,10 @@ a:hover {
   }
   
   .col-12 > div.row.sep-event-tile:nth-last-of-type(odd) > div.col.event-tile > div.row > div.col.event-info > div > p > span {
+    color: #ffcd00;
+  }
+
+  .col-12 > div.row.sep-event-tile:nth-last-of-type(odd) > div.col.event-tile > div.row > div.col.event-info > div > p > a {
     color: #ffcd00;
   }
   
